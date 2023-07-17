@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="SpringMVC.entity.Slide"/>
+    <fullyQualifiedTypeName name="SpringMVC.DAO.HomeDAO"/>
+    <fullyQualifiedTypeName name="Shop.DAO.SlideDAO"/>
+    <fullyQualifiedTypeName name="Shop.service.user.ImplementHome"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="Shop.entity.Categorys"/>
+    <fullyQualifiedTypeName name="Shop.DAO.CategorysDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Conditional"/>
+    <fullyQualifiedTypeName name="java.awt.Menu"/>
+    <fullyQualifiedTypeName name="Shop.entity.Menu"/>
+    <fullyQualifiedTypeName name="Shop.DAO.MenuDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="Shop.DTO.PaginationDTO"/>
+</qualifiedTypeNameHistroy>

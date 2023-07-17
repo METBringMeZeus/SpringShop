@@ -1,0 +1,29 @@
+package Shop.service.user;
+
+import Shop.DTO.PaginationDTO;
+
+public class PaginateServiceImpl {
+	public PaginationDTO getInfoPaginates(Integer TotalData, Integer limit, Integer CurrentPage) {
+		PaginationDTO paginate = new PaginationDTO();
+		paginate.setTotalPage(TotalData);
+		paginate.setLimit(limit);
+		Integer total = setInfoTotalPage(TotalData,limit);
+		paginate.setCurrentPage(CurrentPage);
+		return paginate;	
+	}
+
+	private Integer setInfoTotalPage(Integer totalData, Integer limit) {
+		int totalPage = 0;
+		
+		totalPage = totalData/limit;
+		
+		if(totalPage*limit<totalData) {
+			return totalPage+1;
+		}
+		else {
+			return totalPage;
+		}
+		
+	}
+
+}

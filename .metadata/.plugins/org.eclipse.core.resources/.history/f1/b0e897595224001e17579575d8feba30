@@ -1,0 +1,5 @@
+package Shop.service.user;
+
+public interface IPaginationDTO {
+
+}
